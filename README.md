@@ -5,8 +5,8 @@
 ## _Project Demo_
 # Desktop View
 dashboard Page1
-![image](https://github.com/Yashaswi-Anand/react-responsive-app2/blob/master/screenshots/dashboard_.png)
+![image](https://github.com/Yashaswi-Anand/react-responsive-app2/blob/master/screenshots/one.png)
 
 dashboard Page2
-![image](https://github.com/Yashaswi-Anand/react-responsive-app2/blob/master/screenshots/dashboard2.png)
+![image](https://github.com/Yashaswi-Anand/react-responsive-app2/blob/master/screenshots/two.png)
 
