@@ -1,4 +1,5 @@
 import React from 'react'
+import NavbarTop from './NavbarTop'
 import './Dashboard.css'
 
 function Dashboard() {
@@ -22,20 +23,7 @@ function Dashboard() {
             </div>
 
             <div className='content'>
-                <div style={{ 'margin': "1rem" }}>
-                    <div className='search-bar'>
-                        <div className='search-icon'><i class="fa-solid fa-magnifying-glass"></i>&nbsp; <input /></div>
-                        <div className='noty'><i class="fa-sharp fa-solid fa-bell"></i></div>
-                        <div className='user-name'><i class="fa-solid fa-user"></i> UserFullName</div>
-                    </div>
-
-                    <div className='action-buttons'>
-                        <div><b><i class="fa-solid fa-user"></i> UserFullName</b></div>
-                        <button className='btn-design'>New</button>
-                        <button className='btn-design'>Upload</button>
-                        <button className='btn-design'>Share</button>
-                    </div>
-                </div>
+                <NavbarTop/>
 
                 <div className='bg'>
 
@@ -156,8 +144,9 @@ function Dashboard() {
 
                     {/* Right side bar */}
                     <div className='right-side'>
-                        <div style={{ 'padding': '0.5rem', display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center' }}>
-                            <h2>Announcements</h2>
+                        <h2 style={{ 'padding': '0.5rem' }}>Announcements</h2>
+                        <div style={{ 'padding': '0.5rem', }}>
+
                             <div className='box-shadow'>
                                 <h5>Site Maintenance</h5>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
